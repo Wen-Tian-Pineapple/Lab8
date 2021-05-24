@@ -8,6 +8,8 @@ WenTian
 
 2. Would you use a unit test to test the “message” feature of a messaging application? Why or why not? For this question, assume the “message” feature allows a user to write and send a message to another user.
 
+*No, because in this case, a user write and send message to another user, it construct a connection/relationship between 2 components. Unit test won't allow that.*
+
 3. Would you use a unit test to test the “max message length” feature of a messaging application? Why or why not? For this question, assume the “max message length” feature prevents the user from typing more than 80 characters
 
 4. What do you expect to happen if we run our puppeteer tests with the field “headless” set to true?
