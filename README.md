@@ -24,10 +24,8 @@ WenTian
 
 *await page.goto('http://127.0.0.1:5500');*
 
-*const [response] = await Promise.all([*
+*await page.click('[alt=settings]');*
 
-*page.waitForNavigation(500),*
-
-*page.click('header > img'),*
+*await page.waitForTimeout(500);*
 
 *]);*
