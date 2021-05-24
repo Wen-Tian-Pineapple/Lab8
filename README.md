@@ -24,8 +24,8 @@ WenTian
 
 *await page.goto('http://127.0.0.1:5500');*
 
-*await page.click('[alt=settings]');*
-
 *await page.waitForTimeout(500);*
+
+*await page.click('header > img');*
 
 *]);*
